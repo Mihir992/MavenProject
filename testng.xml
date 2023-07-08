@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	 <groups>
+			  <run>
+				  <!--<include name="sanity"></include>-->
+				  
+			  </run>
+	</groups>
+    <test name="Test">
+		<parameter name ="firstName" value="Mihir"></parameter>
+		<parameter name ="lastName" value="Test"></parameter>
+         <classes>
+            <!-- <class name="testNG.AnnotationsHierarchy"></class>-->
+             <class name="testNG.Assertions"></class>
+          </classes>
+         
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
